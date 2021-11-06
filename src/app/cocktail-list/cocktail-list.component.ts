@@ -1,8 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FormControl } from '@angular/forms';
 import { CocktailService } from '../cocktail.service';
-import { Cocktail } from '../shared/cocktail.model';
-
 
 @Component({
   selector: 'app-cocktail-list',
